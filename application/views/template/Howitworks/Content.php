@@ -1,4 +1,5 @@
-<div class="row" style="padding-bottom:40px;padding-top:40px;">
+<div class="size-40 bold" style="text-align:center;padding-top:30px;padding-bottom:30px;">You came here to :</div>
+<div class="row" style="padding-bottom:40px;padding-top:10px;">
 
 	<div class="col-md-2"></div>
 
@@ -8,8 +9,9 @@
 			<div class="front">
 				<div class="box1" style="background-color:#a0ce4e;">
 					<div class="box-icon-title">
-						<i class="fa fa-refresh fa-spin"></i>
-						<h2>No money, but ideas ?</h2>
+						<i class="fa fa-edit"></i>
+						<h2>BUILD</h2>
+						an innovative idea
 					</div>
 					<p>Find people with same ideas like yours and build an perfect one !</p>
 				</div>
@@ -33,8 +35,9 @@
 			<div class="front">
 				<div class="box1" style="background-color:#cb9536;">
 					<div class="box-icon-title">
-						<i class="fa fa-random"></i>
-						<h2>No ideas, but money ?</h2>
+						<i class="fa fa-shopping-cart"></i>
+						<h2>BUY</h2>
+						an innovative idea
 					</div>
 					<p>Lots of people have great ideas, but can't bring them live.</p>
 				</div>
@@ -45,7 +48,7 @@
 					<h4>BACK SIDE</h4>
 					<hr />
 					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-					<a href="#" class="btn btn-translucid btn-lg btn-block">PURCHASE NOW</a>
+					<a href="#" class="btn btn-translucid btn-lg btn-block">Discover</a>
 				</div>
 			</div>
 		</div>
