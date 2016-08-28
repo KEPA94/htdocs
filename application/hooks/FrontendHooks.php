@@ -117,7 +117,7 @@ class FrontendHooks
 	//$output = str_replace('{FOOTER}',$FOOTER,$output);
 
 	//$output = str_replace('{FOOTER_SCRIPTS}',$FOOTER_SCRIPTS,$output);
-	//$output = str_replace('{ERROR_MSG}','',$output);
+	$output = str_replace('{ERROR_MSG}','',$output);
 	$output = str_replace('{YEAR}',date("Y"),$output);
 	
  

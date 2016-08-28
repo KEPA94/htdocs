@@ -3,7 +3,7 @@
 				<div class="container">
 					
 					<div class="row">
-
+					
 						<div class="col-md-4 col-md-offset-4">
 
 							<!-- ALERT 
@@ -14,14 +14,13 @@
 							<div class="box-static box-border-top padding-10">
 									<h3 style="text-align:center;margin-bottom:10px;">Sign up</h3>
 
-								<form class="nomargin" method="post" action="#" autocomplete="off">
+								<form class="nomargin" method="post" action="{BASE_URL}/proceed/" autocomplete="off">
 									<div class="clearfix">
-										
+
 										<!-- Name -->
 										<div class="form-group">
-											<input type="text" name="name" class="form-control" placeholder="Name" required>
+											<input type="text" name="username" class="form-control" placeholder="Username" required>
 										</div>
-
 
 										<!-- Email -->
 										<div class="form-group">
@@ -33,17 +32,20 @@
 											<input type="password" name="password" class="form-control" placeholder="Password" required>
 										</div>
 
+										<!-- Verify password -->
+										<div class="form-group">
+											<input type="password" name="password_confirm" class="form-control" placeholder="Repeat password" required>
+										</div>
+
 										<label class="checkbox ">
-										<input type="checkbox" name="checkbox-inline">
+										<input type="checkbox" name="newsletter">
 										<i></i> Receive our weekly newsletter 
 										</label>											
 									</div>
 									
 										<div align="center">
-											<a href="#" class="btn btn-3d btn-reveal btn-green">
-											<i class="fa fa-plus"></i>
-											<span>Sign up</span>
-											</a><br>
+											<input type="submit" value="Sign up" class="btn btn-3d btn-reveal btn-green">
+												<Br>
 										<i>By signing up, you agree to our <a href="#">terms of use, privacy policy, and cookie policy</a>.</i><br>
 										</div>
 									
@@ -56,10 +58,15 @@
 								</form>
 							</div>
 						</div>
+
+							{message}
 					</div>
 					
 				</div>
+				
 			</div>
+
+			
 			<!-- / -->
 <!-- BUTTON CALLOUT -->
 			<a href="{BASE_URL}/signin/" rel="nofollow" class="btn btn-xlg btn-success size-20 fullwidth nomargin noradius padding-40">

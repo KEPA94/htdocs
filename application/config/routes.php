@@ -50,9 +50,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-$route['register'] = 'user/register';
-$route['login'] = 'user/login';
-$route['logout'] = 'user/logout';
+//USER VARIABLES
+        //Signup variables
+        $route['signup'] = 'User/Signup';
+        $route['proceed'] = 'User/Signup/Proceed/';
+
+        //Signin variables
+        $route['signin'] = 'User/Signin';
+        $route['verify'] = 'User/Signin/Verify/';
+
+        //Logout variable
+        $route['logout'] = 'User/Logout';
+
+        //My Profile variable
+        $route['profile'] = 'Account/Profile';
+        $route['profile/view/(:any)'] = 'Account/Profile/View/$1';
+        //$route['profile/view'] = 'Errors/User_not_found';
+        $route['user_not_found'] = 'Errors/User_not_found';
 
 $route['default_controller'] = 'welcome';
 $route['404_override'] = 'my404';

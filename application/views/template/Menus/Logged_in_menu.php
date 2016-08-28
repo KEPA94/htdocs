@@ -11,9 +11,8 @@ Direct Link Example:
 <ul id="topMain" class="nav nav-pills nav-main top-links list-inline">
 	<!--<li><a>Bine ai venit, <strong>{username}</strong></a></li>-->
 
-	<li class=""><a href="#">ABOUT US</a></li>	
-	<li class=""><a href="#">HOW IT WORKS ?</a></li>	
-	<li class=""><a href="#">LET'S GET STARTED</a></li>
+	<li class=""><a href="#">ABOUT US</a></li>		
+	<li class=""><a href="#">GET STARTED</a></li>
 	<li class=""><a href="#">SEARCH AN PARTNER</a></li>
 	<li class=""><a href="#">LOOK FOR AN INVESTOR</a></li>
 	<!--<li class="dropdown">
@@ -25,7 +24,14 @@ Direct Link Example:
 		</ul>
 	</li>-->	
 
-	<li class=""><a href="{BASE_URL}/Sign_in/">MY PROFILE</a></li>
+	<li class="dropdown">
+		<a class="dropdown-toggle" href="#">ACCOUNT</a>
+			<ul class="dropdown-menu">
+				<li><a href="{BASE_URL}/profile/">MY PROFILE</a></li>
+				<li><a href="{BASE_URL}/logout/">LOGOUT</a></li>
+
+		</ul>
+	</li>
 
 	<li>
 	<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="{BASE_URL}/design/application/assets/images/flags/gb.png" width="16" height="11" alt="lang"> ENGLISH</a>
