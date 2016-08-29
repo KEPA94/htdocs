@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'protobusiness',
+	'hostname' => 'ftp.protobusiness.esy.es',
+	'username' => 'u372513706_proto',
+	'password' => 'primola99',
+	'database' => 'u372513706_proto',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
