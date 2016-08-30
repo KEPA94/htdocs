@@ -7,10 +7,7 @@ class Profile extends CI_Controller {
 			$this->load->model("User_model");		
 			$this->load->model("Common");			
 		} 
-		
-
-
-	public function index(){
+			public function index(){
 
 			if (isset($_SESSION["logged_in"])){
 			$user_id = $_SESSION['user_id'];

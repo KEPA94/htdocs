@@ -10,7 +10,7 @@ class Signin extends CI_Controller {
 
 	public function index(){
 		if (isset($_SESSION["logged_in"]))
-				redirect("myprofile");
+				redirect("profile");
 		else {
 			$TITLE=$this->parser->parse('template/User/Signin/Title',array(),true);
 			$HEADER_SCRIPTS=$this->parser->parse("template/Landing_page/Header_scripts.php",array("TITLE"=>$TITLE),true);

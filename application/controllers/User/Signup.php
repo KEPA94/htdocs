@@ -11,7 +11,7 @@ class Signup extends CI_Controller {
 	public function index()
 	{
 		if (isset($_SESSION["logged_in"]))
-				redirect("myprofile");
+				redirect("profile");
 			else {
 			$TITLE=$this->parser->parse('template/User/Signup/Title',array(),true);
 			$HEADER_SCRIPTS=$this->parser->parse("template/Landing_page/Header_scripts.php",array("TITLE"=>$TITLE),true);
@@ -72,7 +72,7 @@ class Signup extends CI_Controller {
 					$_SESSION['is_admin']     = (bool)$user->is_admin;
 
 					$this->Common->message_done("<br> Now let's prepare your account for the first use :D");	
-					redirect("myprofile");
+					redirect("profile");
 			}//login ends here
 		} else {
 				
