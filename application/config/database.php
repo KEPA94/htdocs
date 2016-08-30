@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysql.hostinger.ro',
+	'hostname' => '31.170.164.116',
 	'username' => 'u372513706_proto',
-	'password' => 'AMM0IIkcuFGDuQ2gd6',
+	'password' => 'primola99',
 	'database' => 'u372513706_proto',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -94,7 +94,7 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-$db['default1'] = array(
+/*$db['default1'] = array(
 	'dsn'	=> '',
 	'hostname' => 'mysql.hostinger.ro',
 	'username' => 'u372513706_proto',
@@ -136,5 +136,5 @@ $db['default2'] = array(
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
-);
+);*/
 
