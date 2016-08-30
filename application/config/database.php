@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'protobusiness.esy.es',
+	'hostname' => 'mysql.hostinger.ro',
 	'username' => 'u372513706_proto',
 	'password' => 'primola99',
 	'database' => 'u372513706_proto',
